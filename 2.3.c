@@ -5,7 +5,7 @@
 #include <unistd.h>
 
 int main (void) {
-	for (int i=1, i<13; i++) {
+	for (int i=1; i<13; i++) {
 		pid_t pid = fork();
 		
 		if (pid == 0) {
